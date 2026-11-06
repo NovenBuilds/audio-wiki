@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-11-05T19:14:31+08:00",
+  "purpose": "项目初始化的来源登记；记录工作区文件，不声明来源全部已提交或测试通过。",
+  "target_repository": "git@github.com:NovenBuilds/audio-wiki.git",
+  "source_repositories": [
+    {
+      "path": "/Users/ssr/project/project-nursery",
+      "head_commit": "8f4c8fc223130ad954de95978c1ab3a64809d836",
+      "scope": "voice-assistant/audio-wiki",
+      "worktree_status": [
+        " M voice-assistant/audio-wiki/README.md",
+        " M voice-assistant/audio-wiki/research/2026-11-04-云端克隆模型实测记录.md",
+        " M voice-assistant/audio-wiki/资产清单.md",
+        "?? voice-assistant/audio-wiki/plan/",
+        "?? voice-assistant/audio-wiki/research/2026-11-05-云端语速停顿与克隆降噪实测.md",
+        "?? voice-assistant/audio-wiki/research/2026-11-05-无显式停顿语速对照与起音检查.md"
+      ],
+      "note": "目标目录含未提交更新，来源提交号不能单独还原本次文件；按逐文件校验值识别。"
+    },
+    {
+      "path": "/Users/ssr/project/evolution_lab",
+      "head_commit": "2e5e209cd24a516b02420a9ae4ffbce6e09f273f",
+      "scope": "audio-wiki-cloud-comparison",
+      "worktree_status": [
+        " M audio-wiki-cloud-comparison/README.md",
+        " M audio-wiki-cloud-comparison/run_compare.py",
+        " M audio-wiki-cloud-comparison/run_controls.py",
+        "?? audio-wiki-cloud-comparison/inputs/startup-prosody-punctuation.txt",
+        "?? audio-wiki-cloud-comparison/inputs/startup-prosody-sparse-pauses.txt",
+        "?? audio-wiki-cloud-comparison/inputs/startup-single-opening.txt",
+        "?? audio-wiki-cloud-comparison/run_minimax_slower.py",
+        "?? audio-wiki-cloud-comparison/run_speed_followup.py",
+        "?? audio-wiki-cloud-comparison/test_speed_followup.py",
+        "?? audio-wiki-cloud-comparison/试听对照.html"
+      ],
+      "note": "目标目录含未提交更新，来源提交号不能单独还原本次文件；按逐文件校验值识别。"
+    }
+  ],
+  "files": [
+    {
+      "source_path": "/Users/ssr/project/project-nursery/voice-assistant/audio-wiki/README.md",
+      "source_sha256": "ec5ec243f95ca37f0826d39f65394fac132ceea49d699f3ef3465d2bbf172842",
+      "source_size_bytes": 28987,
+      "handling": "仅引用，未复制"
+    },
+    {
+      "source_path": "/Users/ssr/project/project-nursery/voice-assistant/audio-wiki/plan/网页程序的具体实施计划.md",
+      "source_sha256": "dc908acf1147a1e7cad3a1e858efb9937cbb01f126ab9d9db37bc58b90b2e297",
+      "source_size_bytes": 9619,
+      "handling": "承接正文，增加来源说明并修正链接",
+      "target_path": "docs/plan/网页程序的具体实施计划.md",
+      "target_sha256_at_initialization": "ed560692d59561d83a8d8304a56d96123d4e7eb9bebd7201424b4f0bf99aa4f6"
+    },
+    {
+      "source_path": "/Users/ssr/project/project-nursery/voice-assistant/audio-wiki/plan/2026-11-05-Web首版管线设计.md",
+      "source_sha256": "93a6ffd8d0360c927118a346f46b89aea9a278f87fde0624c1798cc1f5a57dbb",
+      "source_size_bytes": 15654,
+      "handling": "承接正文，增加来源说明并修正链接",
+      "target_path": "docs/plan/2026-11-05-Web首版管线设计.md",
+      "target_sha256_at_initialization": "6bd7d3fa6ec5adc4f7bb1eae964f5e380e8bdc8a789eae1caf6fb8ee4ea7a0cd"
+    },
+    {
+      "source_path": "/Users/ssr/project/project-nursery/voice-assistant/audio-wiki/research/2026-11-05-无显式停顿语速对照与起音检查.md",
+      "source_sha256": "39bad7773b789da6c41355e5687fa7ff426cd96b4c0980c5536743c6c5844de4",
+      "source_size_bytes": 11783,
+      "handling": "仅引用，未复制"
+    },
+    {
+      "source_path": "/Users/ssr/project/project-nursery/voice-assistant/audio-wiki/资产清单.md",
+      "source_sha256": "02c8fe843765077d5700d0800b8c5fe34e2c954bd3037b34b954fe546f015de7",
+      "source_size_bytes": 14970,
+      "handling": "仅引用，未复制"
+    },
+    {
+      "source_path": "/Users/ssr/project/evolution_lab/audio-wiki-cloud-comparison/README.md",
+      "source_sha256": "977b3f733f4e8815873be722c0493db9b634111c6bd3ad1d012e633758208d27",
+      "source_size_bytes": 14963,
+      "handling": "仅引用，未复制"
+    },
+    {
+      "source_path": "/Users/ssr/project/evolution_lab/audio-wiki-cloud-comparison/run_compare.py",
+      "source_sha256": "c0f857d355c58c2ef0f239e8aa51311b0460bd1526575b3f8dc9a4dc1f4a2ef9",
+      "source_size_bytes": 25825,
+      "handling": "仅引用，未复制"
+    },
+    {
+      "source_path": "/Users/ssr/project/evolution_lab/audio-wiki-cloud-comparison/run_cosyvoice_websocket.py",
+      "source_sha256": "866512605fe1fba643fbd4dc3938ce5ecf7d2550aa65e43d5d5129cd89efcb64",
+      "source_size_bytes": 5399,
+      "handling": "仅引用，未复制"
+    },
+    {
+      "source_path": "/Users/ssr/project/evolution_lab/audio-wiki-cloud-comparison/run_controls.py",
+      "source_sha256": "7fa1fe94037676b41995712dd24772ee3dcfe1db7ec9912b8668f3bc0a6898ea",
+      "source_size_bytes": 13426,
+      "handling": "仅引用，未复制"
+    },
+    {
+      "source_path": "/Users/ssr/project/evolution_lab/audio-wiki-cloud-comparison/run_speed_followup.py",
+      "source_sha256": "fb13f196253d5b7c3d467a5b8afce8e14ad993e3134646de0e49ad6befd86f9f",
+      "source_size_bytes": 7007,
+      "handling": "仅引用，未复制"
+    },
+    {
+      "source_path": "/Users/ssr/project/evolution_lab/audio-wiki-cloud-comparison/run_minimax_slower.py",
+      "source_sha256": "ebe0bb4c9bccaa08fb0416810acdd4a6589510e009fb19465038ac564bfb0882",
+      "source_size_bytes": 673,
+      "handling": "仅引用，未复制"
+    },
+    {
+      "source_path": "/Users/ssr/project/evolution_lab/audio-wiki-cloud-comparison/test_compare.py",
+      "source_sha256": "31204e61c8ca2550c8d82a69d2a71ee5d94ac891a452be7b9dd769520fca183d",
+      "source_size_bytes": 9818,
+      "handling": "仅引用，未复制"
+    },
+    {
+      "source_path": "/Users/ssr/project/evolution_lab/audio-wiki-cloud-comparison/test_controls.py",
+      "source_sha256": "880eefc31781aa56ae2bb1c18c5fc882606356b4ac4369fe75eca7fa78e121b0",
+      "source_size_bytes": 5199,
+      "handling": "仅引用，未复制"
+    },
+    {
+      "source_path": "/Users/ssr/project/evolution_lab/audio-wiki-cloud-comparison/test_speed_followup.py",
+      "source_sha256": "b746e1ca1964bf803d2a14804595a4e807c6cfd29c0c55e3b872bc9da09a2ed9",
+      "source_size_bytes": 2895,
+      "handling": "仅引用，未复制"
+    },
+    {
+      "source_path": "/Users/ssr/project/evolution_lab/audio-wiki-cloud-comparison/config.example.json",
+      "source_sha256": "1ee6a589e43afb1a06784344d9b99ebbfc6ed134a15628d52a42ebaac2168c0c",
+      "source_size_bytes": 170,
+      "handling": "仅引用，未复制"
+    },
+    {
+      "source_path": "/Users/ssr/project/evolution_lab/audio-wiki-cloud-comparison/credentials.env.example",
+      "source_sha256": "0367c9d078f69036aee4b8a9fbec669d7f78315c193ce761a24ec7153b2031eb",
+      "source_size_bytes": 203,
+      "handling": "仅引用，未复制"
+    }
+  ]
+}
